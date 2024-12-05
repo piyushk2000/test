@@ -1,0 +1,30 @@
+  .app-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .action-icon-container {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .label-container {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .app-bar-wrapper {
+      .action-icon-container {
+        gap: 0.5rem;
+      }
+
+      .text-heading-1 {
+        font: normal normal 600 14px/16px Montserrat;
+      }
+    }
+  }

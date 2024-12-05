@@ -1,0 +1,79 @@
+.expert-profile-award {
+  padding-left: 2.5rem;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .award-detail {
+    display: flex;
+    gap: 2rem;
+
+    h5 {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    #award-1 {
+      div:first-child {
+        display: flex;
+        gap: 1rem;
+
+        img {
+          margin-top: 3px;
+        }
+      }
+    }
+
+    h4 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 13px;
+      line-height: 1.8;
+    }
+  }
+}
+
+
+@media (max-width: 600px) {
+  .expert-profile-award {
+    padding-left: 1rem;
+  
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .award-detail {
+      display: flex;
+      gap: 1rem;
+  
+      h5 {
+        font-size: 12px;
+      }
+  
+      #award-1 {
+        div:first-child {
+          display: flex;
+          gap: 0.5rem;
+  
+          img {
+            margin-top: 3px;
+          }
+        }
+      }
+  
+      h4 {
+        font-size: 12px;
+      }
+      p {
+        font-size: 12px;
+        line-height: 1.5;
+      }
+    }
+  }
+  
+  
+}

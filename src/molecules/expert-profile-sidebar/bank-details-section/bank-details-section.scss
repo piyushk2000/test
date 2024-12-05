@@ -1,0 +1,98 @@
+.bank-details-section {
+  width: 18vw;
+  height: 45rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 20px 20px;
+  gap: 1rem;
+  margin-top: 53px;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+
+  .bank-details-header {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+
+  .add-bank-btn {
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #d4d4d44d;
+    padding: 15px 0;
+    background: #d4d4d44d 0% 0% no-repeat padding-box;
+    border: 1px dashed #7c90a7;
+    border-radius: 15px;
+    opacity: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .bank-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: auto;
+
+    .bank-details {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: #ffffff;
+      background-color: #7c90a7;
+      padding: 8px 12px;
+      border-radius: 15px;
+      cursor: pointer;
+
+      img {
+        border: 2px solid #fff;
+        border-radius: 50%;
+      }
+
+      .account-details {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+
+      .primary {
+        font-size: 12px;
+        color: #16a848;
+        font-style: italic;
+        background-color: #ffffff;
+        padding: 1px 8px;
+        border-radius: 10px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+@media (max-width : 600px) {
+  .bank-details-section {
+    min-width: 100%;
+    width: 100%;
+    height: calc(100vh - 6rem);
+    overflow-y: scroll;
+    padding: 16px 8px;
+    margin: 0rem;
+
+    .add-bank-btn {
+      font-size: 12px;
+      padding: 10px 0;
+      margin-bottom: 0.25rem;
+    }
+
+    .bank-details-container {
+      gap: 0.75rem;
+    }
+  }
+}

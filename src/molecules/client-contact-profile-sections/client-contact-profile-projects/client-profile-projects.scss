@@ -1,0 +1,104 @@
+.client-profile-projects-section {
+  background-color: #ffffff;
+  padding: 1rem;
+  padding-top: 1em;
+  padding-left: 2em;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: grid;
+  grid-template-columns: 1.8fr 1.1fr;
+  gap: 6rem;
+
+  .client-profile-project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    .client-profile-project {
+      display: flex;
+      gap: 2rem;
+      font-weight: 500;
+    }
+    .client-profile-project-desc {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      .description {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1fr 1fr;
+        gap: 0.75rem;
+        padding-right: 0.5rem;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+    .project-data {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      font-size: 13px;
+      font-weight: 500;
+
+      .client-projects-details {
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1.5fr 1.5fr 1fr 1fr;
+        gap: 0.75rem;
+        padding-right: 0.75rem;
+        font-size: 12px;
+        font-weight: 500;
+
+        .font-style {
+          text-decoration: underline;
+          color: #ec9324;
+        }
+      }
+    }
+  }
+  .client-profile-stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-right: 6rem;
+
+    .client-profile-stats {
+      font-weight: 500;
+    }
+    .client-profile-stats-desc {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+
+      .description {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0.75rem;
+        padding-right: 0.5rem;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+    .stats-data {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      font-size: 12px;
+      font-weight: 500;
+
+      .client-stats-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0.75rem;
+        padding-right: 0.5rem;
+        font-size: 12px;
+        font-weight: 500;
+
+        .font-style {
+          text-decoration: underline;
+          color: #ec9324;
+        }
+      }
+    }
+  }
+}

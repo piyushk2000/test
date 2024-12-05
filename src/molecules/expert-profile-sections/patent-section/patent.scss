@@ -1,0 +1,77 @@
+.expert-profile-pat {
+  padding-left: 2.5rem;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: 600;
+
+    a {
+      text-decoration: underline;
+
+      &:hover,
+      &:focus {
+        color: gray;
+      }
+    }
+  }
+
+  h5 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  h6 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+
+  .pat-detail {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .expert-profile-pat {
+    padding-left: 1rem;
+  
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  
+    h4 {
+      font-size: 12px;
+    }
+  
+    h5 {
+      font-size: 12px;
+    }
+  
+    h6 {
+      font-size: 12px;
+    }
+  
+    p {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  
+    .pat-detail {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.client-profile-inflow-section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  padding-top: 1em;
+  padding-left: 2em;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+
+  .inflow-header {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .inflow-section-data {
+    display: flex;
+    flex-direction: column;
+
+    .table-header-section {
+      display: grid;
+      grid-template-columns: 1.5fr repeat(12, 1fr);
+      background-color: #f5f4f4;
+      border-radius: 15px;
+
+      .domain {
+        display: flex;
+        align-items: center;
+        padding: 5px 10px 2px 10px;
+        font-size: 12px;
+        font-weight: 500;
+        border-right: 1px solid #cbcbcb;
+      }
+
+      .month {
+        display: flex;
+        flex-direction: column;
+        padding: 5px 10px 2px 10px;
+        font-size: 12px;
+        font-weight: 500;
+        border-right: 1px solid #cbcbcb;
+
+        .month-header-data {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .data1 {
+            color: #f51010;
+          }
+          .data2 {
+            color: #0cad63;
+          }
+        }
+        .month-name {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .month-data {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(12, 1fr);
+
+    .domain-data{
+      display: flex;
+      flex-direction: row;
+      gap: 0.75rem;
+      padding: 5px 10px;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      border-right: 1px solid #cbcbcb;
+
+      .domain-image{
+        background-color: #EC9324;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+      }
+    }
+
+    .data {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: 500;
+      border-right: 1px solid #cbcbcb;
+    }
+  }
+}

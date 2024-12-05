@@ -1,0 +1,84 @@
+.expert-profile-personal-info {
+  padding-left: 2.5rem;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .contact-details {
+    display: flex;
+    gap: 4rem;
+    font-size: 14px;
+
+    .personal-info-email {
+      font-size: 14px;
+      color: black;
+      font-weight: 500;
+      margin-bottom: 0.75rem;
+    }
+
+    .radio-btn {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      #label {
+        font-size: 14px;
+      }
+
+      div:last-child {
+        display: flex;
+        gap: 0.5rem;
+
+        #primary {
+          color: green;
+          font-style: italic;
+          font-weight: 500;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .other-details {
+      h5 {
+        font-weight: 500;
+        margin-bottom: 0.75rem;
+      }
+      p {
+        line-height: 2;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 600px) {
+  .expert-profile-personal-info {
+    padding-left: 1rem;
+  
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+  
+    h4 {
+      font-size: 12px;
+    }
+  
+    p {
+      font-size: 12px;
+    }
+  }
+  
+  
+}

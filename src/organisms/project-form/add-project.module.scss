@@ -1,0 +1,49 @@
+.inputRow {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.description {
+  background-color: white;
+}
+
+.targetDate {
+  position: relative !important;
+}
+
+.closeBtn {
+  position: absolute !important;
+  right: 40px !important;
+  padding: 5px !important;
+  top: 17px !important;
+}
+
+.datePicker {
+  width: 100%;
+
+  .MuiInputBase-formControl {
+    height: 37px !important;
+    background: white;
+    border-radius: 25px !important;
+  }
+
+  .MuiInputLabel-formControl {
+    top: -7px !important;
+  }
+
+  .MuiInputLabel-shrink {
+    top: 0 !important;
+  }
+}
+
+.actionRow {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  // padding-bottom:12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 16px;
+}

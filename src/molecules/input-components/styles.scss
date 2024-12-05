@@ -1,0 +1,65 @@
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+
+  .fileBox {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    height: 300px;
+
+    .dropzone-box {
+      border: 2px dashed rgba($color: #000000, $alpha: 0.5);
+      padding: 1rem;
+      cursor: pointer;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .dropbox-name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 2rem;
+        img {
+          width: 25px;
+        }
+      }
+    }
+  }
+
+  .error-msg {
+    color: red;
+    margin-top: 1rem;
+  }
+}
+
+.file-upload-label {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 0px;
+  color: #4a4949;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#file-input {
+  display: none;
+}

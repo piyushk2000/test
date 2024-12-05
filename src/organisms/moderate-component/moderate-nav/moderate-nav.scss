@@ -1,0 +1,22 @@
+.moderate-nav-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.37);
+  margin-top: 2.2rem;
+
+
+  .moderate-nav-text{
+    font-size: 14px;
+    color: #252B3B;
+    font-weight: 500;
+    opacity: 0.85;
+    padding: 0 20px 4px 20px;
+  }
+  .active-text{
+    color: #EC9324;
+    opacity: 1;
+    border-bottom: 2px solid #EC9324;
+  }
+}

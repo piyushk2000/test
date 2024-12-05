@@ -1,0 +1,49 @@
+.sort {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.sort-btn {
+  text-transform: capitalize !important;
+  width: 11px !important;
+  padding: 0px !important;
+  opacity: 0.6 !important;
+}
+
+.divider {
+  border: 1px solid #bdb7b7;
+  width: 16px;
+  rotate: 90deg;
+}
+.level {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  opacity: 0.73 !important;
+  cursor: pointer;
+}
+.level-unserviced {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+.download-btn {
+  text-transform: capitalize !important;
+  color: white !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  gap: 0.6rem !important;
+  padding: 4px 10px !important;
+  border-radius: 32px !important;
+  background-color: #ec9324 !important;
+  margin-left: 1rem !important;
+}
+
+.calls {
+  width: 4.5rem;
+  height: 27px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5px 1.5px;
+  border-radius: 15px;
+}

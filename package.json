@@ -1,0 +1,91 @@
+{
+  "name": "infollion-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/moment-timezone": "^6.1.9",
+    "@fullcalendar/react": "^6.1.8",
+    "@fullcalendar/timegrid": "^6.1.8",
+    "@mui/base": "^5.0.0-beta.13",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/lab": "^5.0.0-alpha.138",
+    "@mui/material": "^5.14.3",
+    "@mui/x-date-pickers": "^6.10.0",
+    "@sentry/react": "^8.35.0",
+    "@sentry/vite-plugin": "^2.22.6",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^18.0.0",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@zoom/meetingsdk": "^3.7.0",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.2",
+    "clipboard-polyfill": "^4.0.1",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.9",
+    "exceljs": "^4.4.0",
+    "file-saver": "^2.0.5",
+    "fullcalendar": "^6.1.8",
+    "lodash": "^4.17.21",
+    "material-react-table": "^2.13.0",
+    "moment-timezone": "^0.5.45",
+    "notistack": "^3.0.1",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6",
+    "react-dropzone": "^14.2.3",
+    "react-ga4": "^2.1.0",
+    "react-hook-form": "^7.45.2",
+    "react-image-file-resizer": "^0.4.8",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.14.1",
+    "react-uuid": "^2.0.0",
+    "sass": "^1.63.6",
+    "typescript": "^4.9.5",
+    "url-regex": "^5.0.0",
+    "usehooks-ts": "^2.9.1",
+    "vite": "^5.1.1",
+    "vite-tsconfig-paths": "^4.3.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' CI=false tsc && vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/file-saver": "^2.0.7",
+    "@types/lodash": "^4.14.202",
+    "@types/react": "^18.2.15",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "autoprefixer": "^10.4.14",
+    "browserslist-to-esbuild": "^2.1.1",
+    "postcss": "^8.4.25"
+  }
+}

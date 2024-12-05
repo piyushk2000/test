@@ -1,0 +1,57 @@
+.expert-profile-webhandle {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .social-media-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .link {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .social-media-container {
+
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+  }
+}
+
+@media (max-width: 600px) {
+  .expert-profile-webhandle {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+
+    .social-media-container {
+
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+
+    }
+
+    .social-media-icon {
+      height: 32px;
+      width: 32px;
+    }
+
+    .link {
+      font-size: 12px;
+    }
+  }
+}

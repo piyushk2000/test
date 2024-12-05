@@ -1,0 +1,26 @@
+export const projectCallsData = [
+  {
+    call_id: "937463",
+    project_id: "6365",
+    expert_name: "Abhinav Gupta",
+    client_name: "XYZ",
+    billing_city: "Delhi",
+    acc_manager: "Vinay Verma",
+    re: "Vinay Verma",
+    selling_price: "$837",
+    cost_price: "$54",
+    call_start_time: "6 Hr",
+  },
+  {
+    call_id: "937463",
+    project_id: "6365",
+    expert_name: "Abhinav Gupta",
+    client_name: "XYZ",
+    billing_city: "Delhi",
+    acc_manager: "Vinay Verma",
+    re: "Vinay Verma",
+    selling_price: "$837",
+    cost_price: "$54",
+    call_start_time: "6 Hr",
+  },
+];

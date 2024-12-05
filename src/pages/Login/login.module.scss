@@ -1,0 +1,49 @@
+.inputLabelLogin input::placeholder {
+  color: black;
+  font-size: 14px;
+  position: relative;
+  bottom: 7px;
+}
+
+.imgLoginGoogle {
+  height: 36px;
+  border-radius: 2px;
+}
+
+.imgLoginLinkedIn {
+  height: 36px;
+}
+
+.Disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+  }
+  .imgLoginGoogle {
+    height: 45px;
+    // width: 60%;
+    border-radius: 5px;
+  }
+  .imgLoginLinkedIn {
+    height: 45px;
+    width: 60%;
+  }
+}

@@ -1,0 +1,20 @@
+.EditExpertNavbar {
+  padding: 0 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.backButton {
+  color: #000000 !important;
+  text-transform: capitalize !important;
+  font-size: 15px !important;
+  font-family: inherit !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .back-btn-title {
+    padding-left: 10px;
+  }
+}

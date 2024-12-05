@@ -1,0 +1,49 @@
+.button {
+  margin-left: 10px !important;
+  border-radius: 25px !important;
+  text-transform: none !important;
+}
+.close-btn {
+  color: #d30707e5 !important;
+  background-color: #ffffff50 !important;
+  font-weight: 500 !important;
+}
+
+.reOpen-btn {
+  color: #4fb29c !important;
+  background-color: #ffffff !important;
+}
+
+.navbar-btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  flex: 1;
+  padding: 0 1em;
+}
+
+.navbar-container {
+  padding-bottom: 15px !important;
+}
+
+.back-btn-title {
+  padding-left: 10px;
+}
+
+.pencil-icon-container {
+  background-color: #f5f4f4;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .navbar-btns {
+    padding: 1rem 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

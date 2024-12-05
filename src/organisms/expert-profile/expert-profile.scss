@@ -1,0 +1,49 @@
+//***************************************//
+//       Profile Container              //
+//**************************************//
+
+.expert-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1rem;
+  padding-bottom: 2.5rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  color: #252b3b;
+  margin-top: 1rem;
+
+  .expert-profile-section {
+    padding: 10px;
+    padding-top: 0;
+    overflow: hidden;
+  }
+}
+
+//***************************************//
+//       Side bar                       //
+//**************************************//
+
+.expert-profile-sidebar {
+  display: flex;
+
+  .sidebar-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 7rem;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .expert-profile {
+  flex-direction: column-reverse;
+  
+    .expert-profile-section {
+      padding: 0px;
+    }
+  } 
+}

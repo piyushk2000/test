@@ -1,0 +1,22 @@
+.client-navbar-container {
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  .back-btn-title {
+    padding-left: 10px;
+  }
+
+  .navbar-btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+    flex: 1;
+    padding: 0 1em;
+
+    p {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+}

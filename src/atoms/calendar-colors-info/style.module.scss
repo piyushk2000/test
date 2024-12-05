@@ -1,0 +1,21 @@
+.infoContainer {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.singleInfo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    .circle {
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

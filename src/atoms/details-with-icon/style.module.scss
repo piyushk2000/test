@@ -1,0 +1,29 @@
+.singleDetailContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+
+  .detailIcon {
+    width: 15px;
+  }
+
+  .detailtitle {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #252b3b;
+  }
+
+  .detailText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #252b3b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

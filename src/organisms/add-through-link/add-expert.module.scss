@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.inputRow {
+  padding: 10px 5px;
+}
+
+.formContainer {
+  padding: 0.5em 0.5em 0;
+}
+
+.actionRow {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 16px;
+}
+
+.backgroudGrey {
+  background: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  letter-spacing: 0px;
+  color: #252b3b;
+}
+
+.border501 {
+  color: black;
+  border: 1px solid grey;
+  border-radius: 60px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+.MuiDialog-paper {
+  border-radius: 10px !important;
+  background-color: #f5f5f5 !important;
+}
+
+.MuiAutocomplete-root {
+  background-color: white !important;
+}
+
+.date-picker .MuiOutlinedInput-root {
+  background-color: white !important;
+}
+
+.projectsOptions {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 1rem !important;
+  padding: 10px !important;
+  width: 100% !important;
+}
+
+.projectsChip {
+  border-radius: 5px !important;
+}
+
+.projectsChipProject {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (min-width: 900px) {
+  .formContainer {
+    padding: 1em 1em 0;
+  }
+}
+
+.MuiFormGroup-root {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 2rem;
+}

@@ -1,0 +1,24 @@
+
+.TextFieldSelect fieldset {
+    border-radius: 4px 0% 0% 4px !important;
+    border-right-width: 0px;
+}
+
+.TextFieldSelect fieldset:focus {
+    border-right-width: 1px;
+}
+
+.backgroudWhite {
+    background: white;
+    border-radius:4px!important;
+}
+
+.TextFieldInput fieldset {
+    border-radius: 0px 4px 4px 0px !important;
+}
+
+
+.divFlex{
+    display: flex;
+}
+

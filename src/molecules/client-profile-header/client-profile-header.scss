@@ -1,0 +1,40 @@
+.client-profile-header {
+  display: flex;
+  gap: 10rem;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  align-items: center;
+
+  .client-heading1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .client-profile-header-btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .primary-btn {
+      background-color: #ec9324;
+      color: white;
+      border-radius: 2rem;
+      padding-left: 1.1rem;
+      padding-right: 1.5rem;
+      :hover {
+        background-color: #ec9324;
+      }
+    }
+    .client-profile-header-Menubtns {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      gap: 5px;
+      border-radius: 50%;
+    }
+    .logged-user {
+      margin-right: 2rem;
+    }
+  }
+}

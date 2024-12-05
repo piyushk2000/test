@@ -1,0 +1,200 @@
+.spanAgreement,
+.pAgreement{
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+.page-content .pAgreement.spanAgreement {
+  margin-bottom: 30px;
+}
+
+.page-content .spanAgreement {
+  margin-bottom: 30px;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
+  /* color: black;
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0; */
+
+  letter-spacing: 1px;
+}
+
+.h3Agreement {
+  text-transform: uppercase;
+}
+
+.aAgreement:hover,
+.aAgreement:focus,
+.aAgreement:active {
+  text-decoration: none;
+}
+
+.clearfloat {
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.headerAgreement {
+  overflow: hidden;
+  clear: both;
+}
+
+
+
+.sectionAgreement {
+  overflow: hidden;
+  clear: both;
+}
+
+
+
+.footerAgreement {
+  overflow: hidden;
+  clear: both;
+}
+
+.innerWrapper {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 95px;
+  background: #fbfbfb;
+}
+
+.innerWrapper .footerAgreement {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.expert-block .uline,
+.box-wide .box-wide-inner .uline,
+.counter-box .uline,
+.featured-item .item-info .uline,
+.item-inner .uline,
+.blog-post .uline {
+  display: block;
+  height: 2px;
+  overflow: hidden;
+}
+
+.expert-block .uline::after,
+.box-wide .box-wide-inner .uline::after,
+.counter-box .uline::after,
+.featured-item .item-info .uline::after,
+.item-inner .uline::after,
+.blog-post .uline::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #00bfa5;
+}
+
+.counter-box:hover .uline::after {
+  margin-left: 0;
+}
+
+.section-padding {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.innerPage .section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-header {
+  padding-bottom: 60px;
+}
+
+.section-header .pAgreement.spanAgreement {
+  width: 70%;
+  margin: 0 auto 10px;
+}
+
+.panel-body {
+  text-align: justify;
+}
+
+.sectionAgreement .pAgreement.spanAgreement .aAgreement {
+  color: #ffbe34;
+  transition: all 0.3s;
+}
+
+.sectionAgreement .pAgreement.spanAgreement .aAgreement:hover {
+  color: #333;
+}
+
+.section-header>.h2Agreement::after {
+  content: "";
+  width: 46px;
+  height: 3px;
+  background-color: #898989;
+  display: table;
+  margin: 25px auto 20px;
+}
+
+.section-header.text-left>.h2Agreement::after,
+.section-header.text-right>.h2Agreement::after {
+  margin: 25px 0 20px;
+}
+
+.padding-zero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.h4Agreement {
+  font-size: 1.5rem;
+}
+
+.title2 {
+  margin-top: 4%;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-left:1em;
+}
+
+.spPadding{
+  padding-left:4em;
+  padding-right:4em;
+}
+
+
+.spacer{
+  padding-left:2em;
+  padding-right:2em;
+}
+.text-center {
+  text-align: center;
+}
+
+.h2Agreement {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.aAgreement {
+  color: blue;
+}
+
+
+.pageList{
+  list-style: inside!important;
+}

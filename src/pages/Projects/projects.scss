@@ -1,0 +1,131 @@
+.project-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.projects-search-bar {
+  width: 100%;
+  padding: 4px 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgba(111, 105, 105, 0.07);
+  box-shadow: none;
+}
+
+.primary-btn {
+  color: white;
+  background-color: #ec9324;
+}
+
+.dialog-header {
+  border-bottom: 2px solid rgb(112, 112, 112, 0.2);
+  padding-left: 34px !important;
+  padding-bottom: 9px !important;
+  padding-top: 10px !important;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+}
+.dialog-title-span {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.dialog-title-close-btn {
+  padding-top: 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+}
+
+.add-project-modal .MuiDialog-paperScrollPaper {
+  // width:40%
+  width: 900px;
+  max-height: 100%;
+  max-width: none;
+}
+
+.add-project-modal-content {
+  // height:600px;
+  background-color: #fafafa;
+  // width:650px;
+}
+
+.MuiOutlinedInput-notchedOutline,
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  // border: 0.5px solid#707070 !important;
+  border-radius: 4px !important;
+}
+.MuiTextField,
+.MuiOutlinedInput {
+  border-radius: 4px !important;
+  height: 36px !important;
+}
+// Input Field4
+
+.MuiOutlinedInput-notchedOutline fieldset {
+  border-radius: 4px;
+  background: white;
+  color: black !important;
+  padding-left: 20px !important;
+}
+.MuiOutlinedInput-notchedOutline fieldset legend span {
+  padding-left: 10px !important;
+}
+.MuiOutlinedInput-input {
+  background: white !important;
+  border-radius: 4px !important;
+}
+
+.date-input .MuiOutlinedInput-input {
+  background: transparent !important;
+}
+
+.inputRow {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.MuiFormLabel-filled {
+  // color:#EC9324 !important;
+  color: black !important;
+}
+
+.col-6 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.action-row {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.domain-select-input {
+  display: inline-table;
+  width: 15%;
+  // padding-left:5px;
+  padding-right: 10px;
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
