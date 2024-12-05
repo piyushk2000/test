@@ -57,7 +57,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "NODE_OPTIONS='--max-old-space-size=4096' CI=false tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "eslintConfig": {
